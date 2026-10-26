@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Контент-план BOGATERRA — добавлено видео Reels №1 «Анализы в норме»</title>
+<style>
+  :root{
+    --green-950:#0d2c22; --green-900:#123b2f; --green-800:#17503e; --green:#1c5b47;
+    --green-soft:#e3eee6; --green-mist:#eef4ec; --cream:#f6f3ec; --paper:#fffdf8;
+    --ink:#1e2320; --muted:#6b7268; --gold:#b9975b; --gold-soft:#f0e6cf; --line:#e2dcc9;
+    --blue-old:#26355c;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--cream);color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans",Arial,sans-serif;
+    font-size:15px;line-height:1.55}
+  h1,h2,h3,.serif{font-family:Georgia,"Times New Roman",serif;font-weight:600;line-height:1.2}
+  a{color:var(--green-800)}
+  .wrap{max-width:1180px;margin:0 auto;padding:0 18px 70px}
+  /* ---------- header ---------- */
+  header.top{background:var(--green-950);color:#eef3ea;margin-bottom:34px}
+  header.top .wrap{padding-top:30px;padding-bottom:30px}
+  .brand{letter-spacing:.35em;font-size:13px;text-transform:uppercase;color:#cfdccf}
+  .brand b{color:#fff;font-size:20px;letter-spacing:.22em}
+  header.top h1{margin:14px 0 8px;font-size:clamp(28px,4.5vw,44px);color:#fff}
+  header.top p{margin:4px 0;color:#c9d6c6;max-width:760px}
+  .badge-new{display:inline-flex;gap:8px;align-items:center;background:var(--gold);color:#231a06;
+    font-weight:700;border-radius:999px;padding:7px 14px;margin-top:16px;font-size:13.5px}
+  .badge-new a{color:#231a06}
+  .toplinks{margin-top:14px;font-size:13.5px}
+  .toplinks a{color:#e8ddba;margin-right:16px}
+  /* ---------- sections ---------- */
+  section{background:var(--paper);border:1px solid var(--line);border-radius:18px;
+    padding:26px 26px 30px;margin:0 0 26px;box-shadow:0 1px 3px rgba(20,40,30,.05)}
+  section h2{font-size:clamp(22px,3vw,30px);margin:2px 0 6px;color:var(--green-950)}
+  section h2 .thin{font-weight:400;color:var(--muted);font-size:.62em;display:block;margin-top:2px}
+  .kicker{text-transform:uppercase;letter-spacing:.18em;font-size:11.5px;color:var(--gold);font-weight:700}
+  .lead{color:#41463f;max-width:820px;margin:6px 0 18px}
+  /* ---------- profile mock ---------- */
+  .profile{border:1px solid var(--line);border-radius:16px;overflow:hidden;background:#fff}
+  .profile-head{display:grid;grid-template-columns:96px 1fr;gap:18px;padding:20px 20px 8px;align-items:start}
+  .avatar{width:92px;height:92px;border-radius:50%;object-fit:cover;border:3px solid var(--green-soft);background:var(--green-soft)}
+  .pname{font-weight:700;font-size:19px}
+  .pstats{display:flex;gap:26px;margin:8px 0;text-align:center}
+  .pstats b{display:block;font-size:17px}
+  .pstats span{font-size:12px;color:var(--muted)}
+  .pbio{font-size:13.5px;line-height:1.45;color:#333}
+  .pbio .cat{color:var(--muted)}
+  .highlights{display:flex;gap:16px;padding:14px 20px 18px;overflow-x:auto}
+  .hl{text-align:center;font-size:12px;color:#333;flex:0 0 auto}
+  .hl img{width:62px;height:62px;border-radius:50%;object-fit:cover;border:2px solid var(--gold-soft);display:block;margin:0 auto 5px;background:var(--green-mist)}
+  .ptabs{display:flex;border-top:1px solid #eee}
+  .ptabs div{flex:1;text-align:center;padding:9px 0;font-size:13px;color:var(--muted)}
+  .ptabs div.on{color:var(--ink);font-weight:700;border-top:1.5px solid var(--ink);margin-top:-1px}
+  .group-label{padding:14px 20px 8px;font-weight:700;color:var(--green-950);display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+  .group-label small{color:var(--muted);font-weight:400}
+  .grid9{display:grid;grid-template-columns:repeat(3,1fr);gap:3px;padding:0 3px 3px}
+  .cell{position:relative;aspect-ratio:4/5;overflow:hidden;background:var(--green-900);cursor:pointer;border:0;padding:0;text-align:left;font:inherit;color:#fff}
+  .cell:focus-visible{outline:3px solid var(--gold);outline-offset:-3px;z-index:2}
+  .cell img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+  .cell .shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,30,22,.32),rgba(10,30,22,0) 38%,rgba(10,30,22,0) 55%,rgba(10,30,22,.55))}
+  .cell .cover{position:absolute;inset:0;display:flex;flex-direction:column;padding:11px 12px;
+    background:linear-gradient(160deg,var(--green-800),var(--green-950))}
+  .cell .cover.light{background:linear-gradient(160deg,#f3efe2,#e6e0cb);color:var(--green-950)}
+  .cbrand{font-size:10px;letter-spacing:.28em;text-transform:uppercase;opacity:.85}
+  .crubric{font-size:10.5px;text-transform:uppercase;letter-spacing:.12em;color:var(--gold-soft);margin-top:auto}
+  .cover.light .crubric{color:#8a6d2f}
+  .ctitle{font-family:Georgia,serif;font-size:clamp(14px,2.1vw,21px);line-height:1.18;margin:4px 0}
+  .csub{font-size:clamp(10.5px,1.4vw,12.5px);opacity:.88;line-height:1.35}
+  .ctop-img{position:relative;height:44%;margin:-11px -12px 8px}
+  .ctop-img img{width:100%;height:100%;object-fit:cover}
+  .doctor-name{font-family:Georgia,serif;font-size:clamp(13px,2vw,19px);line-height:1.2}
+  .mini-bars{margin:8px 0 2px}
+  .mini-bars .row{display:flex;align-items:center;gap:6px;font-size:9.5px;margin:2.5px 0}
+  .mini-bars .nm{width:44%;opacity:.9;line-height:1.1}
+  .mini-bars .bar{flex:1;height:5px;background:rgba(255,255,255,.25);border-radius:3px;overflow:hidden}
+  .mini-bars .bar i{display:block;height:100%;background:var(--gold)}
+  .mini-bars .vl{width:20px;text-align:right;font-weight:700}
+  .chip-date{position:absolute;left:8px;bottom:8px;background:rgba(10,25,18,.72);color:#fff;
+    font-size:11px;font-weight:700;border-radius:6px;padding:2px 7px;z-index:3}
+  .chip-type{position:absolute;right:8px;top:8px;background:rgba(10,25,18,.65);color:#fff;
+    font-size:11px;border-radius:6px;padding:2px 7px;z-index:3}
+  .cell .ol-title{position:absolute;left:10px;right:10px;bottom:32px;font-family:Georgia,serif;
+    font-size:clamp(13px,2vw,19px);line-height:1.2;text-shadow:0 1px 6px rgba(0,0,0,.5);z-index:2}
+  .cell .ol-sub{position:absolute;left:10px;right:10px;bottom:10px;font-size:11px;opacity:.95;z-index:2}
+  .play-badge{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:58px;height:58px;z-index:3;
+    border-radius:50%;background:rgba(255,253,248,.92);color:var(--green-950);
+    display:flex;align-items:center;justify-content:center;font-size:23px;padding-left:4px;
+    box-shadow:0 4px 18px rgba(0,0,0,.35)}
+  .pill-ready{position:absolute;left:8px;top:8px;z-index:4;background:var(--gold);color:#231a06;
+    font-size:10.5px;font-weight:800;letter-spacing:.06em;border-radius:999px;padding:3px 9px}
+  .pill-dur{position:absolute;right:8px;bottom:8px;z-index:3;background:rgba(10,25,18,.72);color:#fff;
+    font-size:11px;font-weight:700;border-radius:6px;padding:2px 7px}
+  .cell.oldcell{cursor:default;background:var(--blue-old)}
+  .notes{margin:18px 0 0;padding-left:20px}
+  .notes li{margin:7px 0}
+  .upd{background:var(--gold-soft);border-radius:6px;padding:0 4px}
+  .legend{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0 4px}
+  .legend span{border:1px solid var(--line);border-radius:999px;padding:4px 12px;font-size:12.5px;background:#fff}
+  .hint{color:var(--muted);font-size:13px;margin-top:10px}
+  /* ---------- Reel player ---------- */
+  #reel1{border:2px solid var(--gold);background:linear-gradient(180deg,#fffdf8,#fbf6e9)}
+  .player-grid{display:grid;grid-template-columns:minmax(250px,340px) 1fr;gap:28px;align-items:start}
+  @media (max-width:760px){.player-grid{grid-template-columns:1fr;justify-items:center}}
+  .phone{width:100%;max-width:340px;aspect-ratio:9/16;border-radius:26px;overflow:hidden;position:relative;
+    background:var(--green-950);box-shadow:0 14px 34px rgba(13,44,34,.32);border:6px solid #101410}
+  .phone iframe{width:100%;height:100%;border:0;display:block}
+  .poster-btn{position:absolute;inset:0;width:100%;height:100%;border:0;padding:0;cursor:pointer;background:var(--green-950);color:#fff}
+  .poster-btn img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.96}
+  .poster-btn .shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,30,22,.30),rgba(10,30,22,0) 35%,rgba(10,30,22,0) 55%,rgba(10,30,22,.62))}
+  .poster-btn .big-play{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:82px;height:82px;
+    border-radius:50%;background:rgba(255,253,248,.94);color:var(--green-950);display:flex;align-items:center;justify-content:center;
+    font-size:34px;padding-left:6px;box-shadow:0 8px 26px rgba(0,0,0,.4)}
+  .poster-btn .p-title{position:absolute;left:16px;right:16px;bottom:44px;text-align:left;font-family:Georgia,serif;font-size:21px;line-height:1.2}
+  .poster-btn .p-meta{position:absolute;left:16px;bottom:16px;font-size:12.5px;opacity:.95}
+  .meta-table{border-collapse:collapse;width:100%;margin:12px 0 16px;font-size:14px}
+  .meta-table th{text-align:left;color:var(--muted);font-weight:600;padding:6px 14px 6px 0;white-space:nowrap;vertical-align:top}
+  .meta-table td{padding:6px 0;border-bottom:1px dashed var(--line)}
+  .btns{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0}
+  .btn{display:inline-flex;align-items:center;gap:8px;border-radius:10px;padding:10px 16px;font-weight:700;font-size:14px;
+    text-decoration:none;border:1.5px solid var(--green-900);color:var(--green-950);background:#fff;cursor:pointer;font-family:inherit}
+  .btn.primary{background:var(--green-900);color:#fff}
+  .btn.gold{background:var(--gold);border-color:var(--gold);color:#231a06}
+  .copyrow{display:flex;gap:8px;margin-top:6px}
+  .copyrow input{flex:1;border:1px solid var(--line);border-radius:9px;padding:9px 11px;font-size:12.5px;color:#444;background:#fff;min-width:0}
+  .status-ok{display:inline-block;background:var(--green-soft);color:var(--green-950);font-weight:700;border-radius:999px;padding:2px 10px;font-size:12.5px}
+  .status-todo{display:inline-block;background:#f6e7d8;color:#7a4a12;font-weight:700;border-radius:999px;padding:2px 10px;font-size:12.5px}
+  /* ---------- calendar ---------- */
+  .month{font-family:Georgia,serif;font-size:20px;color:var(--green-950);margin:22px 0 4px;letter-spacing:.04em}
+  .week{margin:14px 0 22px}
+  .week-cap{font-weight:700;margin:0 0 8px;color:var(--ink)}
+  .week-cap small{color:var(--muted);font-weight:400}
+  .tscroll{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:#fff}
+  table.cal{border-collapse:separate;border-spacing:0;min-width:1080px;width:100%;font-size:12.8px}
+  table.cal th,table.cal td{border-bottom:1px solid #efe9d8;border-right:1px solid #f3eedd;padding:9px 10px;vertical-align:top;width:13.4%}
+  table.cal th.rowlab,table.cal td.rowlab{position:sticky;left:0;background:var(--green-mist);z-index:1;width:120px;min-width:120px;
+    font-weight:700;color:var(--green-950);font-size:12px}
+  table.cal td.hl,table.cal th.hl{background:#fdf3d3!important;box-shadow:inset 0 0 0 2px var(--gold)}
+  table.cal .empty{background:#fbfaf5}
+  .fmt{display:inline-block;border-radius:6px;padding:2px 8px;font-weight:700;font-size:11.5px;margin:1px 2px 1px 0}
+  .fmt.reels{background:var(--green-900);color:#fff}
+  .fmt.car{background:var(--green-soft);color:var(--green-950)}
+  .fmt.post{background:var(--gold-soft);color:#5c4712}
+  .fmt.story{background:#e9e4f2;color:#3d2f63}
+  .vthumb{width:100%;max-width:150px;border-radius:8px;display:block;margin-bottom:6px;aspect-ratio:4/5;object-fit:cover;background:var(--green-soft)}
+  .vcover{border-radius:8px;background:linear-gradient(160deg,var(--green-800),var(--green-950));color:#fff;padding:9px 10px;margin-bottom:6px;max-width:170px}
+  .vcover .ctitle{font-size:14.5px}
+  .vcover .crubric{margin-top:6px}
+  .vpoll{border:1.5px dashed #b9aed6;border-radius:8px;padding:9px 10px;background:#faf8ff;max-width:170px}
+  .vpoll b{display:block;margin-bottom:4px}
+  .vpoll span{display:inline-block;background:#fff;border:1px solid #ddd3f0;border-radius:999px;padding:1px 8px;margin:2px 2px 0 0;font-size:11px}
+  .vvideo{position:relative;max-width:150px;margin-bottom:6px}
+  .vvideo img{width:100%;border-radius:8px;display:block;aspect-ratio:9/16;object-fit:cover;background:var(--green-950)}
+  .vvideo .play-badge{width:42px;height:42px;font-size:16px}
+  .txtcell b.tt{display:block;margin-bottom:4px;color:var(--green-950)}
+  .tags{color:#7a6a3f;font-size:11.5px;display:block;margin-top:6px}
+  .vidnote{background:var(--gold-soft);border-radius:8px;padding:7px 9px;margin:6px 0;font-size:12px}
+  .agree{color:var(--muted);font-size:15px}
+  /* ---------- doctors / stories / carousels ---------- */
+  .docs{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
+  .doc-card{border:1px solid var(--line);border-radius:14px;overflow:hidden;background:#fff}
+  .doc-card img{width:100%;aspect-ratio:4/4.2;object-fit:cover;display:block;background:var(--green-soft)}
+  .doc-card .db{padding:12px 14px}
+  .doc-card .db .serif{font-size:18px}
+  .strip{display:flex;gap:14px;overflow-x:auto;padding:6px 2px 12px}
+  .story{flex:0 0 205px;aspect-ratio:9/15;border-radius:14px;overflow:hidden;position:relative;color:#fff;
+    background:linear-gradient(170deg,var(--green-800),var(--green-950));padding:13px;display:flex;flex-direction:column}
+  .story img.bg{position:absolute;left:0;right:0;bottom:0;width:100%;height:46%;object-fit:cover}
+  .story .s-in{position:relative;z-index:1;display:flex;flex-direction:column;height:100%}
+  .story h3{font-size:17.5px;margin:8px 0 6px}
+  .story p{font-size:12px;margin:3px 0;opacity:.94}
+  .story .foot{margin-top:auto;font-size:11px;opacity:.9}
+  .story .sbtn{margin-top:8px;background:#fff;color:var(--green-950);border-radius:8px;text-align:center;
+    font-weight:700;font-size:12px;padding:7px 6px;text-decoration:none;display:block}
+  .ann{flex:0 0 205px;aspect-ratio:9/15;border-radius:14px;overflow:hidden;position:relative;color:#fff;background:var(--green-950)}
+  .ann img.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.55}
+  .ann .s-in{position:relative;z-index:1;padding:13px;display:flex;flex-direction:column;height:100%;
+    background:linear-gradient(180deg,rgba(13,44,34,.65),rgba(13,44,34,.15) 40%,rgba(13,44,34,.8))}
+  .ann h3{font-size:18px;margin:8px 0 6px}
+  .ann p{font-size:12px;margin:3px 0}
+  .cars{display:grid;grid-template-columns:repeat(auto-fill,minmax(315px,1fr));gap:16px}
+  .car{border:1px solid var(--line);border-radius:14px;background:#fff;padding:16px}
+  .car h3{margin:4px 0 4px;font-size:19px;color:var(--green-950)}
+  .car .meta{font-size:12px;color:var(--muted);margin-bottom:8px}
+  .car ol{margin:8px 0;padding-left:20px;font-size:13px}
+  .car ol li{margin:3px 0}
+  .car details{margin-top:8px;border-top:1px dashed var(--line);padding-top:8px;font-size:13px}
+  .car summary{cursor:pointer;font-weight:700;color:var(--green-800)}
+  footer{color:var(--muted);font-size:12.5px;text-align:center;padding:10px 20px 4px;max-width:1180px;margin:0 auto}
+  .disc{font-size:11.5px;color:var(--muted)}
+  .toast{position:fixed;left:50%;bottom:22px;transform:translateX(-50%) translateY(80px);background:var(--green-950);color:#fff;
+    padding:11px 20px;border-radius:999px;font-size:13.5px;opacity:0;transition:.35s;z-index:50;box-shadow:0 8px 24px rgba(0,0,0,.3)}
+  .toast.show{transform:translateX(-50%);opacity:1}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <div class="brand"><b>BOGATERRA</b> &nbsp;клиника</div>
+    <h1>Контент-план BOGATERRA</h1>
+    <p>Instagram* · bogaterra_clinic · 6 недель: сетка профиля, календарь публикаций, сторис и карусели.</p>
+    <span class="badge-new">🎬 Обновлено 26.10.2026: добавлено видео для первого Reels — <a href="#reel1">«Анализы в норме, а сил нет?» ↓</a></span>
+    <div class="toplinks">
+      <a href="https://claude.ai/artifact/MKtKYTu6mH7U9LQRbBCzi4" target="_blank" rel="noopener">Исходный артефакт в Claude ↗</a>
+      <a href="https://drive.google.com/file/d/1RFrLeIWObXCtohaZdekqJGAwzyJ7cCtx/view?usp=sharing" target="_blank" rel="noopener">Файл видео на Google Диске ↗</a>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <!-- ============ СЕТКА ПРОФИЛЯ ============ -->
+  <section id="grid">
+    <div class="kicker">Сетка профиля · 9 постов сейчас + 21 новый</div>
+    <h2>Сетка профиля<span class="thin">Так будет выглядеть профиль через шесть недель</span></h2>
+    <p class="lead">Новые посты встают над текущими. Сетка собрана из снятых Reels, свёрстанных каруселей и портретов врачей.
+      <span class="upd">Reels №1 (26.10) теперь с видео — нажмите на кадр с кнопкой ▶, чтобы посмотреть.</span></p>
+
+    <div class="profile">
+      <div class="profile-head">
+        <img class="avatar" id="avatar" alt="Аватар bogaterra_clinic">
+        <div>
+          <div class="pname">bogaterra_clinic</div>
+          <div class="pstats">
+            <div><b>30</b><span>публикаций<br>сейчас 9</span></div>
+            <div><b>6</b><span>подписчиков</span></div>
+            <div><b>0</b><span>подписок</span></div>
+          </div>
+          <div class="pbio">
+            Bogaterra / Клиника превентивной медицины<br>
+            <span class="cat">Медицина и здоровье</span><br>
+            Индивидуальные программы на основе анализов<br>
+            Гастроэнтеролог / Диетолог / Эндокринолог / Кос… ещё<br>
+            <a href="https://bogaterra-clinic.ru/" target="_blank" rel="noopener">bogaterra-clinic.ru</a><br>
+            ул. Гарибальди, 6, корп. 1, Москва
+          </div>
+        </div>
+      </div>
+      <div class="highlights" id="highlights"></div>
+      <div class="ptabs"><div class="on">Публикации</div><div>Reels</div><div>Отметки</div></div>
+      <div class="group-label">Новые публикации · 26.10–04.12 <small>новые сверху, как в ленте профиля</small></div>
+      <div class="grid9" id="grid-new"></div>
+      <div class="group-label">Сейчас в профиле <small>текущие 9 постов сдвигаются вниз без изменения рядов</small></div>
+      <div class="grid9" id="grid-old"></div>
+    </div>
+
+    <h3 class="serif" style="margin:22px 0 4px;font-size:20px;color:var(--green-950)">Как устроена сетка</h3>
+    <ul class="notes">
+      <li><b>21 новый пост — ровно 7 рядов.</b> Число делится на три, поэтому текущие посты не съезжают и их ряды остаются такими же, как сейчас.</li>
+      <li><b>Ритм недели — Reels, карусель, Reels.</b> Понедельник, среда, пятница. Посты «Знакомьтесь» выходят в день Reels этого врача.</li>
+      <li><b>На границе меняется стиль.</b> Текущие посты тёмно-синие, с постановочными фото. Новые — в зелёной гамме бренда, с реальными кадрами клиники и врачей. Граница будет заметна. Новый стиль появится наверху и через пару недель станет основным.</li>
+      <li><span class="upd"><b>Четыре Reels пока без видео</b> (было пять). Ролики №2, 3, 4 и 8 сняты, но файлов пока нет в плане — в сетке на их месте шаблон обложки в цвет бренда.
+        <b>Reels №1 «Анализы в норме, а сил нет?» — видео добавлено ✓</b> (Bogaterra 7 (1).mp4 · 0:52 · 1080×1920) — плеер в разделе ниже.</span></li>
+    </ul>
+    <div class="legend"><span>▶ Reels</span><span>⧉ Карусель</span><span>Пост «Знакомьтесь»</span><span>Сторис</span><span>🎬 Видео готово</span></div>
+    <p class="hint">Нажмите на новый пост в сетке — откроется его день в календаре ниже. Даты начинаются с понедельника 26 октября 2026 и пока ориентировочные.
+      Кружки «Чек-ап» и «Врачи» в «Актуальном» — предложение: туда можно сохранить новые сторис.</p>
+  </section>
+
+  <!-- ============ REELS №1: ВИДЕО ============ -->
+  <section id="reel1">
+    <div class="kicker">Reels №1 · неделя 1 «философия» · понедельник 26.10.2026</div>
+    <h2>🎬 Анализы в норме, а сил нет?<span class="thin">Видео для первого Reels добавлено в план</span></h2>
+    <p class="lead">Раньше на месте этого ролика в сетке стоял шаблон обложки. Теперь здесь само видео: постер в сетке профиля выше,
+      плеер на этой странице и ссылка на файл — в календаре на 26.10.</p>
+    <div class="player-grid">
+      <div class="phone" id="phone">
+        <button class="poster-btn" id="posterBtn" aria-label="Смотреть видео Reels №1 «Анализы в норме, а сил нет?»">
+          <img id="posterImg" alt="Первый кадр видео Reels №1 «Анализы в норме, а сил нет?»">
+          <span class="shade"></span>
+          <span class="pill-ready" style="position:absolute">ВИДЕО ГОТОВО ✓</span>
+          <span class="big-play">▶</span>
+          <span class="p-title">Анализы в норме,<br>а сил нет?</span>
+          <span class="p-meta">Reels №1 · 0:52 · нажать, чтобы смотреть</span>
+        </button>
+      </div>
+      <div>
+        <table class="meta-table">
+          <tr><th>Файл</th><td>Bogaterra 7 (1).mp4</td></tr>
+          <tr><th>Публикация</th><td>понедельник, <b>26 октября 2026</b> · первая публикация нового плана</td></tr>
+          <tr><th>Формат</th><td>Reels · вертикаль 9:16 · 1080×1920</td></tr>
+          <tr><th>Длительность</th><td>0:52 (52 с)</td></tr>
+          <tr><th>Размер</th><td>≈ 57 МБ (MP4)</td></tr>
+          <tr><th>Доступ</th><td>Google Диск · по ссылке, просмотр и скачивание открыты</td></tr>
+          <tr><th>Статус в плане</th><td><span class="status-ok">видео добавлено ✓</span> &nbsp;<span class="status-todo">подпись к Reels — дописать</span></td></tr>
+          <tr><th>Связь в плане</th><td>к этому Reels привязана карусель <b>К1</b> «Анализы в норме, а сил нет: 3 вопроса себе» (25.11)</td></tr>
+        </table>
+        <div class="btns">
+          <button class="btn primary" id="playHereBtn">▶ Смотреть здесь</button>
+          <a class="btn" href="https://drive.google.com/file/d/1RFrLeIWObXCtohaZdekqJGAwzyJ7cCtx/view?usp=sharing" target="_blank" rel="noopener">Открыть на Google Диске ↗</a>
+          <a class="btn gold" href="https://drive.google.com/uc?id=1RFrLeIWObXCtohaZdekqJGAwzyJ7cCtx&export=download">⬇ Скачать MP4 для публикации</a>
+        </div>
+        <label style="font-size:12.5px;color:var(--muted)">Ссылка на файл (для календаря, чатов и ТЗ):</label>
+        <div class="copyrow">
+          <input id="driveLink" readonly value="https://drive.google.com/file/d/1RFrLeIWObXCtohaZdekqJGAwzyJ7cCtx/view?usp=sharing">
+          <button class="btn" id="copyBtn" style="padding:8px 14px">Копировать</button>
+        </div>
+        <p class="hint">Плеер на странице — предпросмотр Google Диска. Для публикации в Instagram* скачайте MP4 кнопкой выше:
+          файл уже в нужном вертикальном формате 1080×1920. Обложкой Reels можно поставить первый кадр ролика — он же теперь стоит в сетке вместо шаблона.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ КАЛЕНДАРЬ ============ -->
+  <section id="calendar">
+    <div class="kicker">Календарь публикаций</div>
+    <h2>Контент-план<span class="thin">Instagram* · 6 недель</span></h2>
+    <p class="lead">Каждая неделя — блок строк: дата, день, формат, визуал, текст и согласование. Таблица шире экрана, листайте её вбок;
+      колонка с названиями строк остаётся на месте. <span class="upd">В понедельник 26.10 визуал заменён на кадр добавленного видео.</span></p>
+    <div id="weeks"></div>
+    <p class="disc">* Instagram принадлежит компании Meta, признанной экстремистской и запрещённой в РФ. В Instagram — только органические публикации.</p>
+  </section>
+
+  <!-- ============ КОМАНДА ============ -->
+  <section id="team">
+    <div class="kicker">Рубрика «Команда»</div>
+    <h2>Врачи клиники<span class="thin">портретные посты 4:5</span></h2>
+    <p class="lead">Новые студийные портреты на фоне в цвет клиники. Каждый пост — знакомство с врачом: имя, специальность, стаж и одна фраза о том,
+      с чем к нему приходят. Пост выходит в один день с Reels этого врача. Портрет Евгения Арзамасцева — без своего Reels, дата предлагается 10 ноября.</p>
+    <div class="docs" id="docs"></div>
+  </section>
+
+  <!-- ============ СТОРИС ============ -->
+  <section id="stories">
+    <div class="kicker">Сторис</div>
+    <h2>Семь сторис<span class="thin">из вашего PDF, с живыми фото</span></h2>
+    <p class="lead">Формат 9:16. Взяты все вертикальные макеты из «Визуалов контент-плана». Стиль BOGATERRA сохранён, вместо заглушек — реальные кадры клиники.
+      По одной сторис в неделю, в четверг.</p>
+    <div class="strip" id="storyStrip"></div>
+    <h3 class="serif" style="margin:18px 0 4px;font-size:20px;color:var(--green-950)">+6 сторис-анонсов готовых Reels <span class="upd" style="font-size:13px;font-family:inherit">добавлен анонс №1</span></h3>
+    <p class="hint" style="margin-top:0">Анонс выходит в день публикации Reels и ведёт на ролик кнопкой «Смотреть Reels». <span class="upd">Для Reels №1 анонс добавлен вместе с видео (26.10).</span></p>
+    <div class="strip" id="annStrip"></div>
+  </section>
+
+  <!-- ============ КАРУСЕЛИ ============ -->
+  <section id="carousels">
+    <div class="kicker">Карусели</div>
+    <h2>Восемь каруселей<span class="thin">свёрстаны в стиле BOGATERRA</span></h2>
+    <p class="lead">Формат 4:5 (1080 × 1350). Первый слайд — вопрос не длиннее 7 слов, последний — действие и плашка.
+      Форматы, которые сейчас сохраняют: вопросы «ответьте себе», чек-листы, «ожидание и реальность», хронометраж дня.
+      Полные слайды каждой карусели — в <a href="https://claude.ai/artifact/MKtKYTu6mH7U9LQRbBCzi4" target="_blank" rel="noopener">исходном артефакте</a>, здесь — структура, подписи и хэштеги.</p>
+    <div class="cars" id="cars"></div>
+  </section>
+
+</div>
+
+<footer>
+  BOGATERRA · Клиника превентивной медицины · bogaterra_clinic<br>
+  Имеются противопоказания. Необходима консультация специалиста.<br>
+  * Instagram принадлежит компании Meta, признанной экстремистской и запрещённой в РФ.<br>
+  Обновление от 26.10.2026: добавлено видео Reels №1 «Анализы в норме, а сил нет?». Без видео остаются Reels №2, 3, 4 и 8.
+</footer>
+
+<div class="toast" id="toast"></div>
+
+<script>
+"use strict";
+/* ================= данные ================= */
+var MEDIA = "https://a499c9b6-eabd-4b5b-8f0f-d1348f173e69.frame.claudeusercontent.com/_f/1792787908-07cd/media/";
+var DRIVE_ID = "1RFrLeIWObXCtohaZdekqJGAwzyJ7cCtx";
+var DRIVE_VIEW = "https://drive.google.com/file/d/" + DRIVE_ID + "/view?usp=sharing";
+var DRIVE_PREVIEW = "https://drive.google.com/file/d/" + DRIVE_ID + "/preview";
+var POSTER = "https://drive.google.com/thumbnail?id=" + DRIVE_ID + "&sz=w1080";
+var POSTER_FALLBACK = "https://lh3.googleusercontent.com/drive-storage/AJQWtBNPEe1uWMEf7RDCDChoQ7pnUNSMoG6VZ6riSwFMQbebW925CBUlk5OkPJ6wu6MkTHtMas__ZKn0-WiRrlNo4d69ypY_0ozj07ppLXbBo6wwNh8t-g=s800";
+var DISC = "Имеются противопоказания. Необходима консультация специалиста.";
+
+function esc(s){return String(s==null?"":s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");}
+function imgFail(el){el.onerror=null;el.style.display="none";}
+function posterFail(el){el.onerror=function(){imgFail(el);};el.src=POSTER_FALLBACK;}
+
+/* сетка: новые посты сверху вниз, как в профиле (от 04.12 к 26.10) */
+var GRID_NEW = [
+ {date:"04.12",type:"car",kind:"cover",rubric:"подарок",title:"Лучший подарок — это забота о здоровье",sub:"Время врача и спокойствие для всей семьи",pager:"1/6"},
+ {date:"02.12",type:"car",kind:"cover",rubric:"TriVea",title:"Tri — «три». Via — «путь»",sub:"Из чего состоит TriVea 3D-профиль",pager:"1/7"},
+ {date:"30.11",type:"car",kind:"cover",rubric:"врач говорит",title:"Организм старше Вас?",sub:"Биологический возраст выше фактического — узнайте почему",pager:"1/6"},
+ {date:"27.11",type:"reels",kind:"cover",rubric:"Reels №4",title:"После чек-апа — не стопка анализов, а понятный план",sub:"шаблон обложки · видео пока нет в плане"},
+ {date:"25.11",type:"car",kind:"cover",rubric:"TriVea",title:"Анализы в норме. А сил нет?",sub:"3 вопроса, которые стоит задать себе до чек-апа",pager:"1/7"},
+ {date:"23.11",type:"reels",kind:"img",src:"reel10-thyroid.jpg",alt:"Reels №10: приём эндокринолога",olTitle:"«Это просто нервы»?",olSub:"Приём эндокринолога — 60 минут"},
+ {date:"20.11",type:"reels",kind:"img",src:"reel07-anxiety.jpg",alt:"Reels №7: тревога — не только в голове"},
+ {date:"18.11",type:"car",kind:"cover",rubric:"чек-лист",title:"Чек-ап за один день",sub:"Как подготовиться, чтобы день прошёл спокойно",pager:"1/7"},
+ {date:"16.11",type:"reels",kind:"img",src:"reel09-thermo.jpg",alt:"Reels №9: тепловизор",olTitle:"Что видит тепловизор, а Вы — нет",olSub:"TriVea360 БАЗИС — за 1 день"},
+ {date:"13.11",type:"reels",kind:"cover",rubric:"Reels №2",title:"Вес не уходит? Врач первым делом спросит про сон",sub:"шаблон обложки · видео пока нет в плане"},
+ {date:"11.11",type:"car",kind:"anketa",rubric:"рубрика",title:"Чек-ап: ожидание и реальность",sub:"Чего ждут от чек-апа — и как он проходит в BOGATERRA",pager:"1/7"},
+ {date:"10.11",type:"post",kind:"doctor",src:"doctor-d.jpg",alt:"Дробышев, гастроэнтеролог-диетолог",name:"Евгений Арзамасцев",spec:"Гастроэнтеролог-диетолог."},
+ {date:"09.11",type:"reels",kind:"img",src:"reel06-ions.jpg",alt:"Reels №6: ионные токи"},
+ {date:"06.11",type:"reels",kind:"cover",rubric:"Reels №3",title:"Чек-ап за один день: как он проходит",sub:"шаблон обложки · видео пока нет в плане"},
+ {date:"04.11",type:"car",kind:"photocover",src:"k2-yawn.jpg",alt:"Пациентка у окна в ноябрьские сумерки",rubric:"сезон",title:"В ноябре хочется спать уже после 16:00?",sub:"Почему так бывает и когда это повод прийти к врачу",pager:"1/7"},
+ {date:"02.11",type:"post",kind:"doctor",src:"doctor-c.jpg",alt:"Фоменко Анастасия Андреевна, терапевт-эндокринолог",name:"Анастасия Фоменко",spec:"Терапевт-эндокринолог."},
+ {date:"02.11",type:"reels",kind:"cover",rubric:"Reels №8",title:"Приём длится целый час: знакомьтесь, Анастасия Фоменко",sub:"шаблон обложки · видео пока нет в плане"},
+ {date:"30.10",type:"post",kind:"doctor",src:"doctor-a.jpg",alt:"Вельмякина Светлана Ивановна, специалист по физиотерапии",name:"Светлана Вельмякина",spec:"Специалист по физиотерапии · 17 лет в профессии."},
+ {date:"30.10",type:"reels",kind:"img",src:"reel05-intro.jpg",alt:"Reels №5: знакомьтесь, Светлана Вельмякина"},
+ {date:"28.10",type:"car",kind:"cover",rubric:"неловкий вопрос",title:"«Можно прийти, если ничего не болит?»",sub:"Отвечает врач BOGATERRA",pager:"1/6"},
+ {date:"26.10",type:"reels",kind:"video",title:"Анализы в норме, а сил нет?"}
+];
+var GRID_OLD = ["ig/old04.jpg","ig/old05.jpg","ig/old06.jpg","ig/old07.jpg","ig/old08.jpg","ig/old09.jpg","ig/old10.jpg","ig/old11.jpg","ig/old12.jpg"];
+var HIGHLIGHTS = [
+ ["ig/hl1.jpg","Массаж"],["ig/hl2.jpg","Как пройти"],["ig/hl3.jpg","Снижение веса"],
+ ["consultation-wide.jpg","Чек-ап"],["reel05-intro.jpg","Врачи"]
+];
+var ANKETA = [["Энергия и витальность",85],["Качество сна",79],["Стресс и эмоции",79],["Пищеварение",64],["Женское здоровье",100],["Мышление и память",65],["Физическое состояние",100]];
+
+/* визуал-ячейки календаря */
+function vImg(src,cap){return '<img class="vthumb" loading="lazy" src="'+MEDIA+src+'" alt="'+esc(cap||"")+'" onerror="imgFail(this)">'+(cap?'<div>'+esc(cap)+'</div>':"");}
+function vCover(r,t,s,p){return '<div class="vcover"><span class="cbrand">BOGATERRA</span><div class="crubric">'+esc(r)+'</div><div class="ctitle">'+esc(t)+'</div>'+(s?'<div class="csub">'+esc(s)+'</div>':"")+(p?'<div class="csub" style="margin-top:5px">'+esc(p)+'</div>':"")+'</div>';}
+function vPoll(q,opts){return '<div class="vpoll"><b>Опрос</b>'+esc(q)+'<br>'+opts.map(function(o){return "<span>"+esc(o)+"</span>";}).join("")+"</div>";}
+function vVideo(){return '<div class="vvideo"><img loading="lazy" src="'+POSTER+'" alt="Кадр видео Reels №1" onerror="posterFail(this)"><span class="play-badge">▶</span><span class="pill-ready">ВИДЕО ✓</span><span class="pill-dur">0:52</span></div><div><b>Reels №1</b> · Анализы в норме, а сил нет?<br><a href="#reel1">▶ смотреть в плеере</a> · <a href="'+DRIVE_VIEW+'" target="_blank" rel="noopener">файл на Диске ↗</a></div>';}
+function vStory(n,ttl){return vCover("Сторис "+n,ttl,"","");}
+function vDoc(src,name,spec){return vImg(src,name)+'<div class="vcover" style="background:linear-gradient(160deg,#f3efe2,#e6e0cb);color:var(--green-950)"><span class="cbrand">BOGATERRA · Команда</span><div class="ctitle" style="font-size:13px;margin-top:6px">Знакомьтесь<br>'+esc(name)+'</div><div class="csub">'+esc(spec)+'</div></div>';}
+
+function day(date,dow,fmt,visual,textTitle,text,tags,extra){
+  return {date:date,dow:dow,fmt:fmt,visual:visual,textTitle:textTitle,text:text,tags:tags||"",extra:extra||""};
+}
+var TODO = "Дописать подпись";
+
+var WEEKS = [
+ {month:"2026 · ОКТЯБРЬ", cap:"Неделя 1", theme:"философия · 26.10–01.11", days:[
+   day("26.10","пн",[["Reels","reels"]], vVideo(), "Подпись к Reels",
+     "🎬 Видео добавлено: Bogaterra 7 (1).mp4 · 0:52 · 1080×1920. Подпись — "+TODO.toLowerCase()+".","","reel1"),
+   day("27.10","вт",null,null,"","",""),
+   day("28.10","ср",[["Карусель","car"]], vCover("неловкий вопрос","«Можно прийти, если ничего не болит?»","Отвечает врач BOGATERRA","1/6"),
+     "Подпись к карусели","«Можно прийти, если ничего не болит?» Да. Превентивная медицина начинается до жалоб. Вы уходите с картиной по трём осям, понятным планом и точками контроля. Начать можно дистанционно с формата ОНЛАЙН или за один день с БАЗИС. Отвечает [врач — уточнить]. Свой неловкий вопрос напишите в комментариях — ответ врача выйдет в рубрике. Подпишитесь, чтобы не пропустить. "+DISC,
+     "#неловкийвопрос #врачотвечает #профилактика #чекапмосква #превентивнаямедицина #TriVea360 #BOGATERRA"),
+   day("29.10","чт",[["Сторис","story"]], vStory("1 · Один день в клинике","Клиника глазами пациента"),
+     "Текст на сторис","Приём начинается до приёма: врач заранее изучает анкету и выписки. Поэтому на встрече мы говорим о Вас, а не читаем бумаги. Кнопка: Напишите «чек-ап» в директ. "+DISC,""),
+   day("30.10","пт",[["Reels","reels"],["Пост","post"]], vImg("reel05-intro.jpg","Reels №5")+vDoc("doctor-a.jpg","Светлана Ивановна Вельмякина","Специалист по физиотерапии · 17 лет в профессии."),
+     "Подпись к Reels · Подпись к посту",TODO+". В тот же день — репост в сторис: «Знакомьтесь: Светлана Вельмякина», 17 лет в физиотерапии. Кнопка «Смотреть Reels». Подпись к посту: Светлана Ивановна Вельмякина. Специалист по физиотерапии · 17 лет в профессии.",""),
+   day("31.10","сб",[["Сторис · опрос","story"]], vPoll("Во сколько у Вас заканчиваются силы?",["14:00","16:00","18:00","к ночи"]),
+     "Стикер «Опрос»","Во сколько у Вас заканчиваются силы? 14:00 · 16:00 · 18:00 · к ночи",""),
+   day("01.11","вс",null,null,"","","")
+ ]},
+ {month:"2026 · НОЯБРЬ", cap:"Неделя 2", theme:"команда · 02.11–08.11", days:[
+   day("02.11","пн",[["Reels","reels"],["Пост","post"]], vCover("Reels №8","Приём длится целый час: знакомьтесь, Анастасия Фоменко","","")+vDoc("doctor-c.jpg","Анастасия Фоменко","Терапевт-эндокринолог."),
+     "Подпись к Reels · Подпись к посту",TODO+". Подпись к посту: Анастасия Фоменко. Терапевт-эндокринолог.",""),
+   day("03.11","вт",null,null,"","",""),
+   day("04.11","ср",[["Карусель","car"]], vImg("k2-yawn.jpg","Пациентка у окна")+vCover("сезон","В ноябре хочется спать уже после 16:00?","Почему так бывает и когда это повод прийти к врачу","1/7"),
+     "Подпись к карусели","В ноябре силы заканчиваются раньше — и это не лень. Света меньше, и внутренние часы сдвигаются. Часть можно поправить самому: дневной свет утром, один режим сна, тренировки не поздно вечером. Если усталость держится неделями, это повод прийти к врачу. Рассказывает [врач — уточнить]. Перешлите тому, кто засыпает на совещаниях. Подпишитесь: в рубрике «Врач говорит» разбираем, что стоит за усталостью. "+DISC,
+     "#сезоннаяусталость #усталость #режимсна #сон #чекапмосква #превентивнаямедицина #TriVea360 #BOGATERRA"),
+   day("05.11","чт",[["Сторис","story"]], vStory("2 · Советы врача","Утро за 20 минут: 5 привычек для бодрости")+vImg("story2-breakfast-2.jpg","Полезный завтрак"),
+     "Текст на сторис","Вода · Дневной свет · Полезный завтрак · Кофе через час · Без телефона. Неделя 2 · Сохраните и начните завтра",""),
+   day("06.11","пт",[["Reels","reels"]], vCover("Reels №3","Чек-ап за один день: как он проходит","",""),
+     "Подпись к Reels",TODO,""),
+   day("07.11","сб",[["Сторис · вопросы","story"]], '<div class="vpoll"><b>Вопросы</b>Задайте неловкий вопрос врачу<br><span>Напишите вопрос…</span></div>',
+     "Стикер «Вопросы»","Задайте неловкий вопрос врачу. Ответим в рубрике «Неловкий вопрос»",""),
+   day("08.11","вс",null,null,"","","")
+ ]},
+ {cap:"Неделя 3", theme:"мифы · 09.11–15.11", days:[
+   day("09.11","пн",[["Reels","reels"]], vImg("reel06-ions.jpg","Reels №6: ионные токи"),
+     "Подпись к Reels",TODO+". В тот же день — репост в сторис: «Ионные токи не бьют током. А что тогда?», Светлана Ивановна Вельмякина, физиотерапия. Кнопка «Смотреть Reels».",""),
+   day("10.11","вт",[["Пост","post"]], vDoc("doctor-d.jpg","Евгений Николаевич Арзамасцев","Гастроэнтеролог-диетолог."),
+     "Подпись к посту","Евгений Николаевич Арзамасцев. Гастроэнтеролог-диетолог.",""),
+   day("11.11","ср",[["Карусель","car"]], vCover("рубрика","Чек-ап: ожидание и реальность","Чего ждут от чек-апа — и как он проходит в BOGATERRA","1/7"),
+     "Подпись к карусели","Чего часто опасаются перед чек-апом: многих визитов и стопки бланков без объяснений. Как это устроено в BOGATERRA: один день, один координатор, TriVea 3D-профиль по трём осям, процедуры — только по показаниям. В формате МАКСИМУМ результаты обсуждают четыре врача. Какой пункт Вас удивил? Напишите в комментариях. Выбрать формат — ссылка в профиле. "+DISC,
+     "#чекап #чекапмосква #ожиданиеиреальность #профилактиказдоровья #превентивнаямедицина #TriVea360 #BOGATERRA"),
+   day("12.11","чт",[["Сторис","story"]], vStory("3 · Интервью","1200 ккал, а вес стоит? Дело не в силе воли")+vImg("fomenko-consult.jpg","Фоменко на приёме"),
+     "Текст на сторис","Почему при гормональных нарушениях одних диет мало — объясняет Анастасия Фоменко, терапевт-эндокринолог. Неделя 3 · Задайте вопрос врачу — стикер ниже. "+DISC,""),
+   day("13.11","пт",[["Reels","reels"]], vCover("Reels №2","Вес не уходит? Врач первым делом спросит про сон","",""),
+     "Подпись к Reels",TODO,""),
+   day("14.11","сб",[["Сторис · опрос","story"]], vPoll("Сколько часов Вы спите?",["До 6","6–7","7–8","больше 8"]),
+     "Стикер «Опрос»","Сколько часов Вы спите? До 6 · 6–7 · 7–8 · больше 8",""),
+   day("15.11","вс",null,null,"","","")
+ ]},
+ {cap:"Неделя 4", theme:"диагностика · 16.11–22.11", days:[
+   day("16.11","пн",[["Reels","reels"]], vImg("reel09-thermo.jpg","Что видит тепловизор, а Вы — нет · TriVea360 БАЗИС — за 1 день"),
+     "Подпись к Reels",TODO+". В тот же день — репост в сторис: «Ваше тело на тепловизоре: что видит врач», Анастасия Фоменко, терапевт-эндокринолог. Кнопка «Смотреть Reels».",""),
+   day("17.11","вт",[["Сторис","story"]], vStory("5 · Процедуры","Как проходит процедура в BOGATERRA")+vImg("story5-doctor.jpg","Врач на консультации"),
+     "Текст на сторис","Врач назначает по показаниям · Кресло, плед, чай или кофе · Медсестра рядом всё время · После — рекомендации врача. Кнопка: Записаться — ссылка в профиле. "+DISC,""),
+   day("18.11","ср",[["Карусель","car"]], vCover("чек-лист","Чек-ап за один день","Как подготовиться, чтобы день прошёл спокойно","1/7"),
+     "Подпись к карусели","Чек-ап TriVea360 БАЗИС занимает один день. Чтобы он прошёл спокойно, соберите выписки и прошлые анализы, заполните анкету заранее и уточните у координатора, нужно ли прийти натощак. Врач изучит документы до встречи. Сохраните чек-лист. Подобрать формат поможет координатор — напишите в директ «чек-ап». "+DISC,
+     "#чекап #чекапмосква #подготовкакчекапу #профилактиказдоровья #превентивнаямедицина #TriVea360 #BOGATERRA"),
+   day("19.11","чт",[["Сторис","story"]], vStory("4 · Анализы","3 признака скрытого дефицита железа")+vImg("centrifuge.jpg","Пробирки в центрифуге"),
+     "Текст на сторис","Гемоглобин в норме — а запасов может не хватать. Это повод обсудить анализы с врачом, а не ставить диагноз себе. Мёрзнете даже в тепле · Волосы выпадают сильнее обычного · Тянет на лёд, мел или сырую крупу. Неделя 4 · Нужен ли ферритин — решает врач. "+DISC,""),
+   day("20.11","пт",[["Reels","reels"]], vImg("reel07-anxiety.jpg","Reels №7: тревога"),
+     "Подпись к Reels",TODO+". В тот же день — репост в сторис: «Тревога — не только в голове», Светлана Ивановна Вельмякина, физиотерапия. Кнопка «Смотреть Reels».",""),
+   day("21.11","сб",[["Сторис · закулисье","story"]], '<div class="vpoll"><b>Закулисье</b>Один день в клинике: утро координатора</div>',
+     "Сторис","Один день в клинике: утро координатора. Макета нет — снять на телефон в день публикации",""),
+   day("22.11","вс",null,null,"","","")
+ ]},
+ {cap:"Неделя 5", theme:"врач говорит · 23.11–29.11", days:[
+   day("23.11","пн",[["Reels","reels"]], vImg("reel10-thyroid.jpg","«Это просто нервы»? Приём эндокринолога — 60 минут"),
+     "Подпись к Reels",TODO+". В тот же день — репост в сторис: ««Это просто нервы»? Иногда это щитовидная железа», Анастасия Фоменко, терапевт-эндокринолог. Кнопка «Смотреть Reels».",""),
+   day("24.11","вт",null,null,"","",""),
+   day("25.11","ср",[["Карусель","car"]], vCover("TriVea","Анализы в норме. А сил нет?","3 вопроса, которые стоит задать себе до чек-апа","1/7"),
+     "Подпись к карусели","Анализы в норме, а сил нет — частая история. Норма в бланке описывает большинство, а не Вас. Перед чек-апом ответьте себе на три вопроса — по одному на каждую ось TriVea: тело, разум, энергия. Ответы помогут врачу увидеть картину целиком. Сохраните карточки, чтобы вернуться к ним перед приёмом. Какая ось у Вас проседает: тело, разум или энергия? Напишите в комментариях. Записаться на TriVea360 — ссылка в профиле. "+DISC,
+     "#анализывнорме #нетсил #усталость #чекап #чекапмосква #превентивнаямедицина #TriVea360 #BOGATERRA"),
+   day("26.11","чт",[["Сторис","story"]], vStory("6 · Энергия","Нет сил при «нормальных» анализах?")+vImg("doctor-story-6.jpg","Врач разбирает результаты с пациенткой"),
+     "Текст на сторис","Норма лаборатории — общие рамки. Врач смотрит, что они значат для Вас. Что проверить, решает врач по показаниям: ферритин · витамин D · магний · B12 · йод.. Кнопка: Чек-ап TriVea360 — ссылка в профиле. "+DISC,""),
+   day("27.11","пт",[["Reels","reels"]], vCover("Reels №4","После чек-апа — не стопка анализов, а понятный план","",""),
+     "Подпись к Reels",TODO,""),
+   day("28.11","сб",[["Сторис · опрос","story"]], vPoll("Вы проверяли биологический возраст?",["Да","Нет","Хочу"]),
+     "Стикер «Опрос»","Вы проверяли биологический возраст? Да · Нет · Хочу",""),
+   day("29.11","вс",null,null,"","","")
+ ]},
+ {cap:"Неделя 6", theme:"маршрут и подарки · 30.11–06.12", days:[
+   day("30.11","пн",[["Карусель","car"]], vCover("врач говорит","Организм старше Вас?","Биологический возраст выше фактического — узнайте почему","1/6"),
+     "Подпись к карусели","Организм старше Вас? Биологический возраст выше фактического — это сигнал, а не диагноз. Цифра показывает «что», но не отвечает «почему». Врач смотрит, какая ось даёт вклад — тело, разум или энергия, — и строит маршрут с точкой контроля через год. Имеющиеся результаты можно разобрать дистанционно. Уже есть результаты анализов? Напишите в директ «разбор» — координатор расскажет про формат ОНЛАЙН. "+DISC,
+     "#биологическийвозраст #долголетие #чекап #чекапмосква #превентивнаямедицина #TriVea360 #BOGATERRA"),
+   day("01.12","вт",null,null,"","",""),
+   day("02.12","ср",[["Карусель","car"]], vCover("TriVea","Tri — «три». Via — «путь»","Из чего состоит TriVea 3D-профиль","1/7"),
+     "Подпись к карусели","TriVea: tri — «три», via — «путь». Тело — обмен веществ и гормоны. Разум — нервная система, сон и стресс. Энергия — силы и восстановление. Мы смотрим на три оси вместе и собираем их в TriVea 3D-профиль. Три формата: ОНЛАЙН, БАЗИС и МАКСИМУМ. Сохраните, чтобы не потерять. Выбрать формат — ссылка в профиле. "+DISC,
+     "#TriVea360 #чекап #чекапмосква #теларазумэнергия #профилактиказдоровья #превентивнаямедицина #BOGATERRA"),
+   day("03.12","чт",[["Сторис","story"]], vStory("Ожидание vs реальность","Интернет знает всё. Но не про Вас")+vImg("night-phone.jpg","Телефон ночью"),
+     "Текст на сторис","Ночью — тревожный поиск. Утром — разговор с врачом, который видит вашу картину целиком. 3:00 · ночь — Интернет: страшные диагнозы, 15 БАДов в корзине. 10:00 · утро — Врач: видит всю картину, один понятный план. Кнопка: Записаться — ссылка в профиле. "+DISC,""),
+   day("04.12","пт",[["Карусель","car"]], vCover("подарок","Лучший подарок — это забота о здоровье","Время врача и спокойствие для всей семьи","1/6"),
+     "Подпись к карусели","Лучший подарок — это забота о здоровье. Сертификат TriVea360 МАКСИМУМ — это 2 дня, 40+ маркеров, консилиум четырёх врачей и координатор, который ведёт от записи до заключения. Подарите близким время врача и спокойствие за своё здоровье. [Как купить сертификат — уточнить.] Перешлите тому, кому хотите подарить заботу. Подробности о сертификате — в директ. "+DISC,
+     "#подарокблизким #заботаоздоровье #подарокнановыйгод #чекапмосква #превентивнаямедицина #TriVea360 #BOGATERRA"),
+   day("05.12","сб",[["Сторис · ответы врача","story"]], '<div class="vpoll"><b>Ответы врача</b>на вопросы из недели 2</div>',
+     "Сторис","Ответы врача на вопросы из недели 2. Макета нет — собрать после сбора вопросов",""),
+   day("06.12","вс",null,null,"","","")
+ ]}
+];
+
+var DOCTORS = [
+ {src:"doctor-a.jpg",name:"Светлана Ивановна Вельмякина",spec:"Специалист по физиотерапии · 17 лет в профессии.",date:"30.10 · в день Reels №5"},
+ {src:"doctor-c.jpg",name:"Анастасия Фоменко",spec:"Терапевт-эндокринолог.",date:"02.11 · в день Reels №8"},
+ {src:"doctor-d.jpg",name:"Евгений Николаевич Арзамасцев",spec:"Гастроэнтеролог-диетолог.",date:"10.11 · без своего Reels"}
+];
+
+var STORIES = [
+ {n:"Сторис 1 · Один день в клинике",h:"Клиника глазами пациента",p:"Приём начинается до приёма: врач заранее изучает анкету и выписки. Поэтому на встрече мы говорим о Вас, а не читаем бумаги.",btn:"Напишите «чек-ап» в директ",disc:1},
+ {n:"Сторис 2 · Советы врача",h:"Утро за 20 минут: 5 привычек для бодрости",p:"Вода · Дневной свет · Полезный завтрак · Кофе через час · Без телефона",img:"story2-breakfast-2.jpg",foot:"Неделя 2 · Сохраните и начните завтра"},
+ {n:"Сторис 3 · Интервью",h:"1200 ккал, а вес стоит? Дело не в силе воли",p:"Почему при гормональных нарушениях одних диет мало — объясняет Анастасия Фоменко, терапевт-эндокринолог.",img:"fomenko-consult.jpg",foot:"Неделя 3 · Задайте вопрос врачу — стикер ниже",disc:1},
+ {n:"Сторис 4 · Анализы",h:"3 признака скрытого дефицита железа",p:"Гемоглобин в норме — а запасов может не хватать. Мёрзнете даже в тепле · волосы выпадают сильнее обычного · тянет на лёд, мел или сырую крупу. Это повод обсудить анализы с врачом, а не ставить диагноз себе.",img:"centrifuge.jpg",foot:"Неделя 4 · Нужен ли ферритин — решает врач",disc:1},
+ {n:"Сторис 5 · Процедуры",h:"Как проходит процедура в BOGATERRA",p:"1. Врач назначает по показаниям · 2. Кресло, плед, чай или кофе · 3. Медсестра рядом всё время · 4. После — рекомендации врача",img:"story5-doctor.jpg",btn:"Записаться — ссылка в профиле",disc:1},
+ {n:"Сторис 6 · Энергия",h:"Нет сил при «нормальных» анализах?",p:"Норма лаборатории — общие рамки. Врач смотрит, что они значат для Вас. Что проверить, решает врач по показаниям: ферритин · витамин D · магний · B12 · йод.",img:"doctor-story-6.jpg",btn:"Чек-ап TriVea360 — ссылка в профиле",disc:1},
+ {n:"Ожидание vs реальность",h:"Интернет знает всё. Но не про Вас",p:"Ночью — тревожный поиск. Утром — разговор с врачом, который видит вашу картину целиком. Интернет: страшные диагнозы, 15 БАДов в корзине. Врач: видит всю картину, один понятный план.",img:"night-phone.jpg",btn:"Записаться — ссылка в профиле",disc:1}
+];
+
+var ANNOUNCE = [
+ {n:1,rubric:"Философия TriVea",h:"Анализы в норме, а сил нет?",p:"Первый Reels нового плана · 26.10",isNew:true,video:true},
+ {n:5,rubric:"Команда",h:"Знакомьтесь: Светлана Вельмякина",p:"17 лет в физиотерапии",img:"reel05-intro.jpg"},
+ {n:6,rubric:"Разбираем мифы",h:"Ионные токи не бьют током. А что тогда?",p:"Светлана Ивановна Вельмякина, физиотерапия",img:"reel06-ions.jpg"},
+ {n:7,rubric:"Врач говорит",h:"Тревога — не только в голове",p:"Светлана Ивановна Вельмякина, физиотерапия",img:"reel07-anxiety.jpg"},
+ {n:9,rubric:"Врач говорит",h:"Ваше тело на тепловизоре: что видит врач",p:"Анастасия Фоменко, терапевт-эндокринолог",img:"reel09-thermo.jpg"},
+ {n:10,rubric:"Врач говорит",h:"«Это просто нервы»? Иногда это щитовидная железа",p:"Анастасия Фоменко, терапевт-эндокринолог",img:"reel10-thyroid.jpg"}
+];
+
+var CAROUSELS = [
+ {id:"К1",title:"Анализы в норме, а сил нет: 3 вопроса себе",meta:"Философия TriVea · к Reels №1 · неделя 5 · публикация 25.11 · 7 слайдов",
+  slides:["Анализы в норме. А сил нет?","На приёме (фото)","Норма — это рамки для большинства","Ось 1 · Тело: как изменились вес и аппетит за последние полгода?","Ось 2 · Разум: сколько Вы спите и просыпаетесь ли отдохнувшим?","Ось 3 · Энергия: в какое время дня заканчиваются силы?","Ответы — врачу"],
+  cap:"Анализы в норме, а сил нет — частая история. Норма в бланке описывает большинство, а не Вас. Перед чек-апом ответьте себе на три вопроса — по одному на каждую ось TriVea: тело, разум, энергия. Ответы помогут врачу увидеть картину целиком. Сохраните карточки, чтобы вернуться к ним перед приёмом. Какая ось у Вас проседает: тело, разум или энергия? Напишите в комментариях. Записаться на TriVea360 — ссылка в профиле. "+DISC,
+  tags:"#анализывнорме #нетсил #усталость #чекап #чекапмосква #превентивнаямедицина #TriVea360 #BOGATERRA"},
+ {id:"К2",title:"В ноябре хочется спать уже после 16:00?",meta:"Врач говорит · сезонный повод · неделя 2 · публикация 04.11 · 7 слайдов",
+  slides:["В ноябре хочется спать уже после 16:00?","Комната отдыха (фото)","Света меньше — ритм сдвигается","Что можно сделать самому","Когда это не только сезон","Решает врач","Три оси сразу"],
+  cap:"В ноябре силы заканчиваются раньше — и это не лень. Света меньше, и внутренние часы сдвигаются. Часть можно поправить самому: дневной свет утром, один режим сна, тренировки не поздно вечером. Если усталость держится неделями, это повод прийти к врачу. Рассказывает [врач — уточнить]. Перешлите тому, кто засыпает на совещаниях. Подпишитесь: в рубрике «Врач говорит» разбираем, что стоит за усталостью. "+DISC,
+  tags:"#сезоннаяусталость #усталость #режимсна #сон #чекапмосква #превентивнаямедицина #TriVea360 #BOGATERRA"},
+ {id:"К3",title:"Чек-ап за один день: как подготовиться",meta:"Один день в клинике · к Reels №3 · неделя 4 · публикация 18.11 · 7 слайдов",
+  slides:["Чек-ап за один день","Лаборатория (фото)","Соберите выписки","Вечер перед чек-апом","Как проходит день","Неделя 1: заключение, 3D-профиль и маршрут","Сохраните чек-лист"],
+  cap:"Чек-ап TriVea360 БАЗИС занимает один день. Чтобы он прошёл спокойно, соберите выписки и прошлые анализы, заполните анкету заранее и уточните у координатора, нужно ли прийти натощак. Врач изучит документы до встречи. Сохраните чек-лист. Подобрать формат поможет координатор — напишите в директ «чек-ап». "+DISC,
+  tags:"#чекап #чекапмосква #подготовкакчекапу #профилактиказдоровья #превентивнаямедицина #TriVea360 #BOGATERRA"},
+ {id:"К4",title:"Ожидание и реальность: чек-ап",meta:"Ожидание vs реальность · к Reels №3 и №4 · неделя 3 · публикация 11.11 · 7 слайдов",
+  slides:["Чек-ап: ожидание и реальность","Реальность · диагностика","1 · Время: один день вместо пяти визитов","2 · Результат: не стопка бланков, а одна картина","3 · Врачи: Вашу картину обсуждают вместе","4 · Процедуры: только то, что нужно именно Вам","Один координатор от записи до плана"],
+  cap:"Чего часто опасаются перед чек-апом: многих визитов и стопки бланков без объяснений. Как это устроено в BOGATERRA: один день, один координатор, TriVea 3D-профиль по трём осям, процедуры — только по показаниям. В формате МАКСИМУМ результаты обсуждают четыре врача. Какой пункт Вас удивил? Напишите в комментариях. Выбрать формат — ссылка в профиле. "+DISC,
+  tags:"#чекап #чекапмосква #ожиданиеиреальность #профилактиказдоровья #превентивнаямедицина #TriVea360 #BOGATERRA"},
+ {id:"К5",title:"Неловкий вопрос: можно прийти, если ничего не болит?",meta:"Неловкий вопрос врачу · неделя 1 · публикация 28.10 · 6 слайдов",
+  slides:["«Можно прийти, если ничего не болит?»","Приём (фото)","Да. Так устроена профилактика","С чем Вы уйдёте","Два входа","Свой неловкий вопрос?"],
+  cap:"«Можно прийти, если ничего не болит?» Да. Превентивная медицина начинается до жалоб. Вы уходите с картиной по трём осям, понятным планом и точками контроля. Начать можно дистанционно с формата ОНЛАЙН или за один день с БАЗИС. Отвечает [врач — уточнить]. Свой неловкий вопрос напишите в комментариях — ответ врача выйдет в рубрике. Подпишитесь, чтобы не пропустить. "+DISC,
+  tags:"#неловкийвопрос #врачотвечает #профилактика #чекапмосква #превентивнаямедицина #TriVea360 #BOGATERRA"},
+ {id:"К6",title:"Организм старше Вас? Узнайте почему",meta:"Врач говорит · инфоповод: городской чекап · неделя 6 · публикация 30.11 · 6 слайдов",
+  slides:["Организм старше Вас?","Диагностика (фото: капилляроскоп)","Это не диагноз, а сигнал","Какая ось даёт вклад","Маршрут","Уже есть результаты анализов?"],
+  cap:"Организм старше Вас? Биологический возраст выше фактического — это сигнал, а не диагноз. Цифра показывает «что», но не отвечает «почему». Врач смотрит, какая ось даёт вклад — тело, разум или энергия, — и строит маршрут с точкой контроля через год. Имеющиеся результаты можно разобрать дистанционно. Уже есть результаты анализов? Напишите в директ «разбор» — координатор расскажет про формат ОНЛАЙН. "+DISC,
+  tags:"#биологическийвозраст #долголетие #чекап #чекапмосква #превентивнаямедицина #TriVea360 #BOGATERRA"},
+ {id:"К7",title:"Тело · Разум · Энергия: из чего состоит 3D-профиль",meta:"Философия TriVea · к Reels №4 · неделя 6 · публикация 02.12 · 7 слайдов",
+  slides:["Tri — «три». Via — «путь»","Процедурный кабинет (фото)","Ось 1 · Тело","Ось 2 · Разум","Ось 3 · Энергия","Одна методология — три формата","Здоровьем можно управлять"],
+  cap:"TriVea: tri — «три», via — «путь». Тело — обмен веществ и гормоны. Разум — нервная система, сон и стресс. Энергия — силы и восстановление. Мы смотрим на три оси вместе и собираем их в TriVea 3D-профиль. Три формата: ОНЛАЙН, БАЗИС и МАКСИМУМ. Сохраните, чтобы не потерять. Выбрать формат — ссылка в профиле. "+DISC,
+  tags:"#TriVea360 #чекап #чекапмосква #теларазумэнергия #профилактиказдоровья #превентивнаямедицина #BOGATERRA"},
+ {id:"К8",title:"Лучший подарок — это забота о здоровье",meta:"Забота о близких · после запуска сертификата · неделя 6 · публикация 04.12 · 6 слайдов",
+  slides:["Лучший подарок — это забота о здоровье","Сертификат TriVea360","TriVea360 МАКСИМУМ: что внутри","Один координатор","Семейный профиль","Как подарить"],
+  cap:"Лучший подарок — это забота о здоровье. Сертификат TriVea360 МАКСИМУМ — это 2 дня, 40+ маркеров, консилиум четырёх врачей и координатор, который ведёт от записи до заключения. Подарите близким время врача и спокойствие за своё здоровье. [Как купить сертификат — уточнить.] Перешлите тому, кому хотите подарить заботу. Подробности о сертификате — в директ. "+DISC,
+  tags:"#подарокблизким #заботаоздоровье #подарокнановыйгод #чекапмосква #превентивнаямедицина #TriVea360 #BOGATERRA"}
+];
+
+/* ================= рендер ================= */
+function typeChip(c){
+  if(c.type==="reels") return '<span class="chip-type">▶ Reels</span>';
+  if(c.type==="car") return '<span class="chip-type">⧉ '+(c.pager||"")+"</span>";
+  return "";
+}
+function anketaBars(){
+  return '<div class="mini-bars">'+ANKETA.map(function(a){
+    return '<div class="row"><span class="nm">'+esc(a[0])+'</span><span class="bar"><i style="width:'+a[1]+'%"></i></span><span class="vl">'+a[1]+"</span></div>";
+  }).join("")+'<div class="csub" style="font-size:9.5px">пример · анкета TriVea</div></div>';
+}
+function cellHTML(c){
+  var inner="";
+  if(c.kind==="video"){
+    inner='<img loading="lazy" src="'+POSTER+'" alt="Кадр видео Reels №1 «Анализы в норме, а сил нет?»" onerror="posterFail(this)">'
+      +'<span class="shade"></span><span class="pill-ready">🎬 ВИДЕО ГОТОВО</span><span class="play-badge">▶</span>'
+      +'<span class="ol-title">'+esc(c.title)+'</span><span class="ol-sub">Reels №1 · смотреть видео</span><span class="pill-dur">0:52</span>';
+  }else if(c.kind==="img"){
+    inner='<img loading="lazy" src="'+MEDIA+c.src+'" alt="'+esc(c.alt||"")+'" onerror="imgFail(this)"><span class="shade"></span>'
+      +(c.olTitle?'<span class="ol-title">'+esc(c.olTitle)+"</span>":"")+(c.olSub?'<span class="ol-sub">'+esc(c.olSub)+"</span>":"");
+  }else if(c.kind==="doctor"){
+    inner='<span class="cover light" style="position:absolute"><span class="ctop-img"><img loading="lazy" src="'+MEDIA+c.src+'" alt="'+esc(c.alt||"")+'" onerror="imgFail(this)"></span>'
+      +'<span class="cbrand">BOGATERRA · Команда</span><span style="font-size:11px;margin-top:4px">Знакомьтесь</span>'
+      +'<span class="doctor-name">'+esc(c.name)+'</span><span class="csub">'+esc(c.spec)+"</span></span>";
+  }else if(c.kind==="photocover"){
+    inner='<span class="cover" style="position:absolute"><span class="ctop-img"><img loading="lazy" src="'+MEDIA+c.src+'" alt="'+esc(c.alt||"")+'" onerror="imgFail(this)"></span>'
+      +'<span class="cbrand">BOGATERRA</span><span class="crubric">'+esc(c.rubric)+'</span><span class="ctitle">'+esc(c.title)+'</span><span class="csub">'+esc(c.sub||"")+"</span></span>";
+  }else if(c.kind==="anketa"){
+    inner='<span class="cover" style="position:absolute"><span class="cbrand">BOGATERRA</span>'+anketaBars()
+      +'<span class="crubric">'+esc(c.rubric)+'</span><span class="ctitle">'+esc(c.title)+'</span><span class="csub">'+esc(c.sub||"")+"</span></span>";
+  }else{
+    inner='<span class="cover" style="position:absolute"><span class="cbrand">BOGATERRA</span>'
+      +'<span class="crubric">'+esc(c.rubric)+'</span><span class="ctitle">'+esc(c.title)+'</span><span class="csub">'+esc(c.sub||"")+"</span></span>";
+  }
+  return '<button class="cell" data-date="'+c.date+'" data-kind="'+c.kind+'" title="'+esc(c.date+" · "+(c.title||c.alt||c.name||""))+'" aria-label="'+esc(c.date+" "+(c.title||c.alt||c.name||""))+'">'
+    +inner+typeChip(c)+'<span class="chip-date">'+c.date+"</span></button>";
+}
+
+document.getElementById("avatar").src = MEDIA+"ig/avatar.jpg";
+document.getElementById("avatar").onerror = function(){imgFail(this);};
+document.getElementById("highlights").innerHTML = HIGHLIGHTS.map(function(h){
+  return '<div class="hl"><img loading="lazy" src="'+MEDIA+h[0]+'" alt="" onerror="imgFail(this)">'+esc(h[1])+"</div>";
+}).join("");
+document.getElementById("grid-new").innerHTML = GRID_NEW.map(cellHTML).join("");
+document.getElementById("grid-old").innerHTML = GRID_OLD.map(function(s,i){
+  return '<div class="cell oldcell"><img loading="lazy" src="'+MEDIA+s+'" alt="Текущий пост профиля №'+(i+1)+'" onerror="imgFail(this)"></div>';
+}).join("");
+
+function fmtChips(f){
+  if(!f) return "";
+  return f.map(function(x){return '<span class="fmt '+x[1]+'">'+esc(x[0])+"</span>";}).join("");
+}
+var ROWS = ["Дата публикации","День недели","Формат поста","Визуал","Текст поста","Согласование текста к посту"];
+function weekHTML(w){
+  var head = "";
+  if(w.month) head += '<div class="month">'+esc(w.month)+"</div>";
+  head += '<div class="week"><p class="week-cap">'+esc(w.cap)+' <small>'+esc(w.theme)+'</small></p><div class="tscroll"><table class="cal"><tbody>';
+  var body = ROWS.map(function(r,ri){
+    var cells = w.days.map(function(d){
+      var empty = !d.fmt && ri>1;
+      var v = "";
+      if(ri===0) v = "<b>"+d.date+"</b>";
+      else if(ri===1) v = d.dow;
+      else if(ri===2) v = fmtChips(d.fmt);
+      else if(ri===3) v = d.visual||"";
+      else if(ri===4){
+        if(d.text){
+          v = '<div class="txtcell"><b class="tt">'+esc(d.textTitle)+"</b>"
+            +(d.extra==="reel1"?'<div class="vidnote">🎬 <b>Видео в плане:</b> Bogaterra 7 (1).mp4 · 0:52 · 1080×1920<br><a href="#reel1">▶ смотреть в плеере выше</a> · <a href="'+DRIVE_VIEW+'" target="_blank" rel="noopener">открыть на Google Диске ↗</a></div>':"")
+            +esc(d.text)+(d.tags?'<span class="tags">'+esc(d.tags)+"</span>":"")+"</div>";
+        }
+      }
+      else if(ri===5) v = d.fmt?'<span class="agree">☐</span>':"";
+      var tag = ri===0?"th":"td";
+      return "<"+tag+' data-d="'+d.date+'"'+(empty?' class="empty"':"")+">"+v+"</"+tag+">";
+    }).join("");
+    return '<tr><td class="rowlab">'+r+"</td>"+cells+"</tr>";
+  }).join("");
+  return head + body + "</tbody></table></div></div>";
+}
+document.getElementById("weeks").innerHTML = WEEKS.map(weekHTML).join("");
+
+document.getElementById("docs").innerHTML = DOCTORS.map(function(d){
+  return '<div class="doc-card"><img loading="lazy" src="'+MEDIA+d.src+'" alt="'+esc(d.name)+'" onerror="imgFail(this)">'
+    +'<div class="db"><span class="cbrand" style="color:var(--muted)">BOGATERRA · Команда</span><div class="serif">'+esc(d.name)+"</div>"
+    +'<div style="font-size:13px">'+esc(d.spec)+'</div><div class="disc">'+esc(d.date)+"</div></div></div>";
+}).join("");
+
+document.getElementById("storyStrip").innerHTML = STORIES.map(function(s){
+  return '<div class="story"><div class="s-in"><span class="cbrand">BOGATERRA</span><div class="crubric" style="margin-top:4px">'+esc(s.n)+"</div>"
+    +"<h3>"+esc(s.h)+"</h3><p>"+esc(s.p)+"</p>"
+    +'<div class="foot">'+(s.btn?'<span class="sbtn" style="position:relative">'+esc(s.btn)+"</span>":"")
+    +(s.foot?esc(s.foot)+"":"")+(s.disc?'<div style="margin-top:6px;font-size:9.5px;opacity:.8">'+DISC+"</div>":"")+"</div></div>"
+    +(s.img?'<img class="bg" loading="lazy" src="'+MEDIA+s.img+'" alt="" onerror="imgFail(this)">':"")+"</div>";
+}).join("");
+
+document.getElementById("annStrip").innerHTML = ANNOUNCE.map(function(a){
+  var bg = a.video
+    ? '<img class="bg" loading="lazy" src="'+POSTER+'" alt="Кадр Reels №1" onerror="posterFail(this)">'
+    : '<img class="bg" loading="lazy" src="'+MEDIA+a.img+'" alt="" onerror="imgFail(this)">';
+  var btn = a.video
+    ? '<a class="sbtn" href="#reel1" style="background:#fff;color:var(--green-950);border-radius:8px;text-align:center;font-weight:700;font-size:12px;padding:8px 6px;text-decoration:none;display:block">Смотреть Reels →</a>'
+    : '<span style="background:#fff;color:var(--green-950);border-radius:8px;text-align:center;font-weight:700;font-size:12px;padding:8px 6px;display:block">Смотреть Reels →</span>';
+  return '<div class="ann">'+bg+'<div class="s-in"><span class="cbrand">BOGATERRA</span>'
+    +'<div class="crubric" style="margin-top:4px">'+esc(a.rubric)+(a.isNew?' · <span style="background:var(--gold);color:#231a06;border-radius:5px;padding:0 5px;font-weight:800">новое</span>':"")+"</div>"
+    +'<div style="font-size:11.5px;opacity:.9">Новый Reels · №'+a.n+"</div><h3>"+esc(a.h)+"</h3><p>"+esc(a.p)+"</p>"
+    +'<div style="margin-top:auto">'+btn+'<div style="margin-top:7px;font-size:9.5px;opacity:.85">'+DISC+"</div></div></div></div>";
+}).join("");
+
+document.getElementById("cars").innerHTML = CAROUSELS.map(function(c){
+  return '<article class="car"><span class="kicker">'+c.id+'</span><h3>'+esc(c.title)+'</h3><div class="meta">'+esc(c.meta)+"</div>"
+    +"<ol>"+c.slides.map(function(s){return "<li>"+esc(s)+"</li>";}).join("")+"</ol>"
+    +"<details><summary>Подпись к посту и хэштеги</summary><p>"+esc(c.cap)+'</p><p class="tags">'+esc(c.tags)+"</p></details></article>";
+}).join("");
+
+/* ================= плеер и взаимодействия ================= */
+var posterImg = document.getElementById("posterImg");
+posterImg.src = POSTER;
+posterImg.onerror = function(){posterFail(this);};
+
+var playerLoaded = false;
+function loadPlayer(){
+  if(playerLoaded) return;
+  playerLoaded = true;
+  var phone = document.getElementById("phone");
+  phone.innerHTML = '<iframe src="'+DRIVE_PREVIEW+'" title="Видео Reels №1 «Анализы в норме, а сил нет?» (Bogaterra 7 (1).mp4)" allow="autoplay; encrypted-media; fullscreen" allowfullscreen></iframe>';
+}
+document.getElementById("posterBtn").addEventListener("click", loadPlayer);
+document.getElementById("playHereBtn").addEventListener("click", function(){
+  loadPlayer();
+  document.getElementById("phone").scrollIntoView({behavior:"smooth",block:"center"});
+});
+
+var toastTimer = null;
+function toast(msg){
+  var t = document.getElementById("toast");
+  t.textContent = msg; t.classList.add("show");
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(function(){t.classList.remove("show");}, 2400);
+}
+document.getElementById("copyBtn").addEventListener("click", function(){
+  var inp = document.getElementById("driveLink");
+  function done(){toast("Ссылка на видео скопирована");}
+  if(navigator.clipboard && navigator.clipboard.writeText){
+    navigator.clipboard.writeText(inp.value).then(done, function(){inp.select(); document.execCommand("copy"); done();});
+  }else{ inp.select(); document.execCommand("copy"); done(); }
+});
+
+function highlightDate(date){
+  var els = document.querySelectorAll("table.cal [data-d]");
+  els.forEach(function(e){e.classList.remove("hl");});
+  var hits = document.querySelectorAll('table.cal [data-d="'+date+'"]');
+  if(!hits.length) return;
+  hits.forEach(function(e){e.classList.add("hl");});
+  var week = hits[0].closest(".week");
+  (week||hits[0]).scrollIntoView({behavior:"smooth",block:"center"});
+  setTimeout(function(){hits.forEach(function(e){e.classList.remove("hl");});}, 3200);
+}
+document.querySelectorAll("#grid-new .cell").forEach(function(cell){
+  cell.addEventListener("click", function(){
+    if(cell.getAttribute("data-kind")==="video"){
+      document.getElementById("reel1").scrollIntoView({behavior:"smooth",block:"start"});
+      setTimeout(loadPlayer, 650);
+      toast("🎬 Reels №1 · 26.10 — видео «Анализы в норме, а сил нет?»");
+      return;
+    }
+    highlightDate(cell.getAttribute("data-date"));
+  });
+});
+</script>
+</body>
+</html>
