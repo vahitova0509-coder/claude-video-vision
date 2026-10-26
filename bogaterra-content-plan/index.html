@@ -658,7 +658,7 @@ function weekHTML(w){
       else if(ri===4){
         if(d.text){
           v = '<div class="txtcell"><b class="tt">'+esc(d.textTitle)+"</b>"
-            +esc(d.text)+(d.tags?'<span class="tags">'+esc(d.tags)+"</span>":"")+"</div>";
+            +esc(d.text).replace(/\n\n/g,"<br><br>")+(d.tags?'<span class="tags">'+esc(d.tags)+"</span>":"")+"</div>";
         }
       }
       else if(ri===5) v = d.fmt?'<span class="agree">☐</span>':"";
